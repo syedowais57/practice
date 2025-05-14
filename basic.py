@@ -41,11 +41,51 @@
 # print(students["101"]["name"])   
 # print (students["103"]["age"])
 
+# s = "PythonRocks"
+# print(s[2:8])
 
-def s (a,b)
-    
+# num = [1 ,2,3 ,4,5,6]
+# sqr =[]
 
+# for i in num :
+#     if i % 2 == 0:
+#      sqr.append(i**2)
+     
+# print(sqr[::-1])
+# def reverse(arr):
+#    return arr[::-1] 
 
+# print(reverse([1,2,3]))
 
+# def count_even_numbers (num):
+#        count= 0
+#        for i in num :
+         
+#          if i % 2 == 0:
+#              count= count + 1
+       
+#        return count
+# l = []
+# print(count_even_numbers(l))
+       
+# l =        
 
+# for i in range(1 ,100):
+#     print("owais")
+ 
+l = [2,7,5,6,3,9]
+# e = []
+# o =[]
+def evn(x):
+      return x %2==0
+def odd(x):
+      return x % 2!= 0
+      
+# print(e)
+# print(o)
+even = list (filter(evn , l))
+oddd = list(filter(odd , l))
+# evn=list(filter(lambda x : x % 2 == 0,l))
+print(even)
+print(oddd)
 
