@@ -1,1 +1,2 @@
-add(1,2)
+qr.reverse()
+# print(sqr)
