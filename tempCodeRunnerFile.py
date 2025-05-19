@@ -1,2 +1,2 @@
-qr.reverse()
-# print(sqr)
+exp = "654+5623"
+simpleexp(exp)
